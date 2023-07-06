@@ -596,22 +596,6 @@ video {
   top: 0.25rem;
 }
 
-.top-full {
-  top: 100%;
-}
-
-.top-4 {
-  top: 1rem;
-}
-
-.top-10 {
-  top: 2.5rem;
-}
-
-.top-32 {
-  top: 8rem;
-}
-
 .top-24 {
   top: 6rem;
 }
@@ -1151,21 +1135,6 @@ video {
 /* loading button */
 
 .btn-loading {
-}
-
-.hover\:w-3\/4:hover {
-  width: 75%;
-}
-
-.hover\:scale-50:hover {
-  --tw-scale-x: .5;
-  --tw-scale-y: .5;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.hover\:-scale-y-50:hover {
-  --tw-scale-y: -.5;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 .hover\:border-primary:hover {
