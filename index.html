@@ -23,7 +23,7 @@
           <span class="hamburger-line"></span>
         </button>
 
-        <nav id="nav-menu" class="hidden lg:static lg:block absolute py-5 bg-white lg:bg-transparent dark:bg-dark dark:lg:bg-transparent shadow-lg lg:shadow-none rounded-lg lg:rounded-none max-w-[250px] lg:max-w-full w-full right-4 top-full">
+        <nav id="nav-menu" class="z-[999]  hidden lg:static lg:block fixed py-5 bg-white lg:bg-transparent dark:bg-dark dark:lg:bg-transparent shadow-lg lg:shadow-none rounded-lg lg:rounded-none max-w-[250px] lg:max-w-full w-full right-4 top-24">
           <ul class="block lg:flex text-dark dark:text-white">
             <li class="group">
               <a href="#home" class="text-base lg:text-base py-2 flex  mx-8 lg:mx-4 group-hover:text-primary">Beranda</a>
@@ -61,7 +61,7 @@
   <section id="home" class="flex justify-center pt-12 mt-10 md:mt-32 lg:mt-20 md:px-10">
     <div class="container">
       <div class="flex flex-wrap">
-        <div class="w-full z-10 self-center p-4 md:w-1/2">
+        <div class="w-full self-center p-4 md:w-1/2">
           <h1 class="text-base font-semibold text-primary dark:text-white md:text-xl lg:text-2xl">Halo Semuaa, saya <span class="block text-dark dark:text-yellow-500 font-bold text-2xl md:text-3xl lg:text-4xl">Evan Azhar Hartana</span></h1>
           <h2 class="font-medium text-secondary text-md mb-5">Web Developer & Designer Graphic</h2>
           <p class="text-sm font-medium text-slate-400 mb-10 leading-relaxed">Orang kaya yang tidak sombong adalah orang kayak saya xiexiexixixi</p>
@@ -70,7 +70,7 @@
         </div>
         <div class="w-2/3 self-center px-4 mx-auto md:w-1/3">
           <div data-aos="zoom-in" class="relative mt-10">
-            <img src="./dist/img/Evan.jpg" alt="Evanazh" class="w-full mx-auto rounded-lg">
+            <img data-aos="zoom-in" src="./dist/img/Evan.jpg" alt="Evanazh" class="w-full mx-auto rounded-lg">
 
             <!-- <span class="absolute -bottom-20 -z-10 left-1/2 -translate-x-1/2">
               <svg width="350" height="300" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
@@ -131,7 +131,7 @@
         </div>
         
         <div class="w-full px-4 flex flex-wrap justify-center items-center">
-          <div data-aos="zoom-in" class="mb-12 p-4 md:w-[40%] mx-3 bg-white dark:bg-white rounded-lg shadow-lg">
+          <div data-aos="zoom-in" class=" mb-12 p-4 md:w-[40%] mx-3 bg-white dark:bg-white rounded-lg shadow-lg">
             <div class="rounded-md shadow-md overflow-hidden">
               <img src="./dist/img/portfolio/portfolio_1.jpeg" alt="" class="w-full">
             </div>
@@ -208,7 +208,7 @@
             Kotak Pesan
           </h4>
           <h2 class="font-bold text-dark text-3xl mb-4 sm:text-4xl lg:text-5xl">
-            Kritik dan Sarannya
+            Kritik dan Saran
           </h2>
           <p class="font-medium text-md text-secondary md:text-lg">Yuk yang punya saran, kritik atau pesan boleh isi form dibawah ini, pesan akan terkirim ke google spreadsheet, <strong>terimakasih</strong></p>
         </div>
