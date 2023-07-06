@@ -556,10 +556,6 @@ video {
   }
 }
 
-.fixed {
-  position: fixed;
-}
-
 .absolute {
   position: absolute;
 }
@@ -596,8 +592,8 @@ video {
   top: 0.25rem;
 }
 
-.top-24 {
-  top: 6rem;
+.top-full {
+  top: 100%;
 }
 
 .-z-10 {
